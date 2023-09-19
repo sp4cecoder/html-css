@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favion/favicon.ico" type="image/x-icon">
+    <title>Treinamento Pág.02</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <main>
+        <h1>Listas</h1>
+        <h2>Lista Ordenada</h2>
+        <p>Para a criação de uma lista ordenada, é usado a tag <strong>OL</strong>, para a sua delimitação, e a tag <strong>Li</strong>, para a criação dos itens da lista. Exemplo:</p>
+        <ol>
+            <li>Ir para a escola</li>
+            <li>Voltar para casa</li>
+            <li>Organizar o planejamento dos RPGs</li>
+            <li>Mestrar a mesa para o pessoal</li>
+            <li>Comer</li>
+            <li>Dormir</li>
+        </ol>
+        <p><ins>Nota:</ins> É possível configurar o tipo de marcador da lista, utilizando o parâmetro <strong>type</strong> na tag <strong>OL</strong>. Tendo opções para sua utilização:</p>
+        <ul>
+            <li>1</li>
+            <li>A</li>
+            <li>a</li>
+            <li>I</li>
+            <li>i</li>
+        </ul>
+        <p> E com a utilização do parâmetro <strong>start</strong> com a tag <strong>type</strong>, é possível dizer em que número/letra começar a lista. Exemplo:</p>
+        <ol type="1" start="5">
+            <li>Tomar Banho</li>
+            <li>Comer pudim</li>
+            <li>Esovar os dentes</li>
+            <li>Ir trabalhar</li>
+            <li>Fazer projeto</li>
+            <li>Voltar pra casa</li>
+        </ol>
+        <h2>Lista Não Ordenada</h2>
+        <p>Para a criação de uma lista não ordenada, é utilizado as tags <strong>UL</strong>, para a sua delimitação, e a <strong>Li</strong>, para a criação dos itens da da lista. Exemplo:</p>
+        <ul>
+            <li>Açúcar</li>
+            <li>Carne</li>
+            <li>Pão</li>
+            <li>Massa de pastel</li>
+            <li>Mussarela</li>
+        </ul>
+        <p><ins>Nota:</ins> É possível configurar o tipo do marcador da lista, através do parâmetro <strong>type</strong> na tag <strong>OL</strong>. Tendo opções para sua utilização:</p>
+        <ul type="square">
+            <li>Disc</li>
+            <li>Circle</li>
+            <li>Square</li>
+        </ul>
+        <h2>Juntando listas</h2>
+        <p>É possível juntar as listas, e configurar elas dentro de outras listas. Aqui vai um exercício pedido pelo curso:
+            "Crie seu próprio código e faça a seguinte lista aninhada com seus jogos favoritos de
+            acordo com a plataforma."
+        </p>
+        <h4>Lista dos meus jogos favoritos, de cada plataforma:</h4>
+        <ol>
+            <li>Computador</li>
+            <ul type="disc">
+                <li>Minecraft</li>
+                <li>Dead Cells</li>
+                <li>Dust in Elysan Tail</li>
+                <li>Subnautica</li>
+            </ul>
+            <li>Xbox</li>
+            <ul type="disc">
+                <li>Skate 3</li>
+                <li>Zombie Army 4</li>
+                <li>Watch Dogs 2</li>
+                <li>Forza</li>
+                <ul type="circle">
+                    <li>Forza Horizon 4</li>
+                    <li>Forza Horizon 5</li>
+                </ul>
+            </ul>
+            <li>Nintendo</li>
+            <ul type="disc">
+                <li>Super Mario Bros</li>
+                <ul type="circle">
+                    <li>Super Mario Bros 3</li>
+                    <li>Super Mario Bros World</li>
+                </ul>
+                <li>The Legend of Zelda</li>
+                <ul type="circle">
+                    <li>Breath of the Wild</li>
+                    <li>Majoras Mask</li>
+                    <li>Tears of the Kingdom</li>
+                </ul>
+                <li>Mario Kart</li>
+                <li>Celeste</li>
+            </ul>
+            <li>Playstation</li>
+            <ul type="disc">
+                <li>Grand Theft Auto</li>
+                <ul type="circle">
+                    <li>San Andreas</li>
+                    <li>Vice-City</li>
+                </ul>
+                <li>The Last of US</li>
+                <li>Call of Duty</li>
+                <li>Crash Bandicot</li>
+            </ul>
+        </ol>
+        <h2>Lista de Definição</h2>
+        <p>Funciona como um dicionário, temos os termos e suas descrições, é uma  lista sem demarcadores, poderá ser útil para alguns casos. <br> As tags são as seguintes:</p>
+        <ol type="1">
+            <li>DL - Definition List</li>
+            <li>DT - Definition Term</li>
+            <li>DD - Definition Description</li>
+        </ol>
+        <p>Segue um exemplo:</p>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Linguagem de marcação utilizada para a criação do contéudo de um site.</dd>
+            <dt>CSS</dt>
+            <dd>Linguagem de marcação utilizada para a criação de design para um site.</dd>
+            <dt>JavaScript</dt>
+            <dd>Linguagem de programação para a criar interatividades em um site.</dd>
+        </dl>
+        <p><ins>Recomendação/Nota:</ins> Recomendo, olhar dentro das linhas do arquivo index, para ter uma ideia melhor de como é feito o uso dessas tags.</p>
+    </main>
+
+
+    <footer>
+        <p style="text-align: center;"><a href="../index.html" target="_self" rel="prev">Página 1</a> - 
+            <a href="pag02.html" target="_self">Página 2</a> - 
+            <a href="pag03.html" target="_self" rel="next">Página 3</a> - 
+            <a href="pag04.html" target="_self" rel="next">Página 4</a> - 
+            <a href="pag05.html" target="_self" rel="next">Página 5</a>
+        </p>
+    </footer>
+</body>
+</html>

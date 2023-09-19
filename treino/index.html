@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="shortcut icon" href="favion/favicon.ico" type="image/x-icon">
+    <title>Treinamento</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        mark {
+            background-color: rgb(199, 99, 42);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Treino pessoal para desenvolvimento de habilidades e conhecimentos em HTML e CSS. &#x1F63C;</h1>
+    </header>
+    <main>
+        <section>
+     <p>Aqui irei treinar as minhas habilidades
+         em html, como por exemplo de quebra de linha dentro de uma tag de &lt;p&gt;,
+         <br> como essa por exemplo.</p>
+     <p>Outro exemplo também, é adiconamento de emojis e símbolos, como por exeplo: <br> Emojis: &#x1F60E; &#x1F47D; <br>
+     Símbolos: &real; &pound; &copy; etc.</p> <!--#EXEMPLO-->
+     
+     <p>Então um treino excessivo é necessário para o meu aprendizado
+         então ficar brincando com
+         isso aqui
+         pode mostrar que quem rege todo a linha,
+         é a tag &lt;p&gt;.
+         <br>
+         Como pode ver, e caso veja a linha de código do index.html em algum programa de visualização de código, como o
+         Visual Code ou
+         Notepad++ como por exemplo, verá que isso é real, é a tag que comanda.
+     </p>
+     
+     <h2>Imagens no site</h2>
+     <p>Agora, tenho a possibilidade de poder colocar imagens, como essa por exemplo:</p>
+     <img src="https://cdn.iconscout.com/icon/free/png-256/free-minecraft-14-282131.png?f=webp" alt="Logo-Minecraft">
+     <p>A imagem acima, utilizei o endereço de imagem dela para a por no site. Agora irei por outra imagem:</p>
+     <img src="imagens/esferas-do-dragão.png" alt="Esferas de DragonBall">
+     <p>A imagem acima, foi colocada através da utilização de sub-pastas. Agora a última imagem:</p>
+     <img src="paisagem-400.jpg" alt="Paisagem-Bonita">
+     <p>A imagem acima foi colocada através da utilização da pasta "mãe", onde fica o arquivo index.html.</p>
+     <p>Resumindo, existe 3 formas de colocar imagens:
+         <br> 1º Através de endereço de imagens; <br> 2º Através de sub-pastas; <br> 3º Através da pasta "mãe" do arquivo index.</p>
+     
+     <p>Agora o site tem um Favicon! Lá em cima! <br> Para colocar um favicon é preciso colocar a tag "link" na area do head, pode ser em cima do &lt;title&gt; mesmo, daí segue o padrão de selecionar imagem, utilizando ctrl + space e pronto. Fácil não?</p>
+     
+     
+     <h1>Formatações de texto/semântica/entre outros</h1>
+     <h2>Negrito / Destaque</h2>
+     <p>Um exemplo claro para deixar em negrito é esse <i>"agora"</i>, utilizando a tag b (não semântica).</p>
+     <p>E podendo <strong>deixar em negrito</strong>, utiliando a tag STRONG (semântica).</p>
+     <h2>Itálico / Ênfase</h2>
+     <p>Para essa frase, tenho um <i>termo em destaque</i>, utilizando a tag i (não semântica).</p>
+     <p>E outro <em>termo em destaque</em>, utilizando a tag EM (semântica).</p>
+     <h2>Texto marcado</h2>
+     <p>Pode ser feito <mark>marcação em um texto</mark>, usando a tag MARK.</p>
+     <p> E temos outro <mark>texto marcado</mark>.</p>
+     <p>Uma coisa interessante, é que é possível fazer uma alteração de cor da marcação usando a tag STYLE, dentro da tag MARK. E também sendo possível usá-la para demarcar a colocação que todas as tags "MARKs" usadas sejam da cor selecionada.</p>
+     <p>Pra isso é necessário colocar a tag STYLE no corpo do documento, escrever MARK, abrir conchetes e colocar background-color: a cor que deseja, ";" e fecha conchetes. Pronto, a nova cor que a tag MARK tem já está alterada, isso para todas que possam ter em sua linha de código/textos</p>
+     <p>Caso esteja confuso para poder fazer isso, você pode abrir o arquivo index no visual code e poderá ver o que foi feito aqui. &#x1F60E;</p>
+     <h2>Texto grande e pequeno</h2>
+     <p>Aqui à um <big>texto grande</big>, usando a tag BIG (obsoleta).</p>
+     <p>E aqui um <small>texto pequeno</small>, usando a tag SMALL (semântica).</p>
+     <p><ins>Nota:</ins> A tag BIG, pode funcionar ainda, mas já está obsoleta, para fazer alteração dessa forma, acaba sendo necessário o uso de CSS.</p>
+     <h2>Texto deletado e inserido</h2>
+     <p>Pode ser marcado um <del>texto como excluído</del>, para poder indicar que pode ser lido, mas não considerado. Utilizando a tag DEL.</p>
+     <p>E pode ser marcado um <ins>texto como inserido</ins>, para dar uma ênfase e poder indicar que ele foi adicionado depois. Utilizando a tag INS.</p>
+     <p><ins>Nota:</ins> Existe também a tag U, que faz também o serviço de <u>sublinhar o texto</u>, mas ele é uma forma não semântica para fazer a sublinhação, então o recomendado é a utilização da tag INS.</p>
+     <h2>Textos subescritos e subscritos</h2>
+     <p>(Subescritos) Para inserir coisas do tipo, que ficaria assim sem a tag: X2+3, já com a tag: X<sup>2</sup>+3. É utilizado a tag SUP. </p>
+     <p>(Subscritos) Para inseir coisas do tipo, que ficaria assim sem a tag: H20, já com a tag: H<sub>2</sub>0. É utilizado a tag SUB.</p>
+     <h2>Citações e Códigos</h2>
+     <p>Para fazer citações, é utilizado a tag Q (possui semântica). Mas para citações mais longas (em bloco) e que tenham um parágrafo para si, é utilizado a tag BLOCKQUOTE.
+         <br> Segue um exemplo de cada tag:</p>
+     <p>Como diria o pai de um amigo meu: <q>o computador é um burro muito rápido.</q></p>
+     <p>Segundo Jeff Noble, no seu livro HTML para Leigos:
+         <blockquote>A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.</blockquote></p>
+     <p>Para códigos, é utilizado a tag CODE, ela delimita o código digitado, além de possuir valor semântico, indicando ao navegador que se trata de um código de computador. E a tag PRE, que mantém o texto pré-formatado, exatamente da mesma forma na qual ele foi digitado, incluindo quebras de linha, espaços e tabulações.
+         <br> Segue um exemplo utilizado as duas tags:</p>
+     <p>&lt;code&gt; O comando <code>document.getElementById('teste')</code> linguagem de JavaScript</p>
+     <p>&lt;pre&gt;<pre>
+         num = int(input('Digite um número'))
+         if num % 2 == 0:
+             print(f'O número {num} é PAR')
+         else:
+             print(f'O número {num} é ÍMPAR')
+         print('Fim do programa')
+     </pre></p>
+     <h2>Outras formatações</h2>
+     <p>Existe a tag ABBR, para fazer abreviações. Segue o exemplo:</p>
+     <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>.</p>
+     <p>E também tem a tag BDO, que pode inverter uma frase ou texto (além de ser a mais inútil de todas kk). Segue o exemplo:</p>
+     <p><bdo dir="rtl">Adoro comer um pudim fresco no final da tarde.</bdo></p>
+     <p><ins>Nota:</ins> Lembrando que todas as formatações aprensentadas até agora, seriam as mais usadas/principais, e sim, existem várias outras para se usar.</p>
+ </section>
+</main>
+
+    <footer>
+        <p style="text-align: center;">
+            <a href="index.html" target="_self">Página 1</a> - 
+            <a href="pags/pag02.html" target="_self" rel="next">Página 2</a> - 
+            <a href="pags/pag03.html" target="_self" rel="next">Página 3</a> - 
+            <a href="pags/pag04.html" target="_self" rel="next">Página 4</a> - 
+            <a href="pags/pag05.html" target="_self" rel="next">Página 5</a>
+        </p>
+    </footer>
+</body>
+</html>
