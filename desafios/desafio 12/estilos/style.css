@@ -1,9 +1,6 @@
 @charset "UTF-8";
 
-@font-face {
-    font-family: 'Passion One', cursive;
-    src: url('../fontes/PassionOne/PassionOne-Bold.ttf');
-}
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700;900&display=swap');
 
 @font-face {
     font-family: 'Sriracha', cursive;
@@ -19,11 +16,13 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
 html, body {
     min-height: 100%;
     background-color: darkgray;
+    font-family: var(--fonte01);
 }
 
 a {
@@ -46,6 +45,7 @@ header > h1 {
     padding-top: 50px;
     font-family: var(--fonte02);
     font-variant: small-caps;
+    font-size: 10vw;
 }
 
 header > p {
@@ -55,9 +55,11 @@ header > p {
 section {
     font-family: var(--fonte03);
     line-height: 2em;
+    font-size: 2em;
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
+    font-size: 3.5vw;
 }
 
 section.normal {
@@ -71,7 +73,8 @@ section.imagem {
 }
 
 section.imagem > p {
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.255);
 }
 
